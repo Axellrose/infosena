@@ -1,0 +1,10 @@
+h1 {background-color: aliceblue; text-align: center; margin-top: 30; margin-bottom: 20}
+p{margin: 10}
+img {border-image-width: auto; display: block;margin-left: auto;
+    margin-right: auto }
+div {width: 100}
+.loja_especial {color: orangered}
+.Produto_especial {color: lightgreen}
+li {text-decoration-style: solid; text-decoration-color: blue}
+table{color:black; table-layout: auto; text-align: center; border-style: double; margin: auto; background: aliceblue}
+.rodape{text-align: right; margin: auto; font-style: italic; line}

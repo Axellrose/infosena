@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>          
+        <title>Aluguel</title>
+         
+        <link rel="stylesheet" href="infosena.css"/>
+        
+    </head>
+    <body>
+        <div class="container">
+             <h1>Alugue sua loja</h1>
+             <img src="download.jpg">
+             <form metod= "post"  action ="aluguel.html">
+             <div class ="form-row">
+                 <div class ="form-group">     
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="Nome" name="Nome" requered="true" class="form-control" placeholder="digite seu o seu nome" size="50"/>
+                 </div>
+             </div>         
+             <div class="form-row">
+                  <div class ="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="E-mail" requered="true" class="form-control" placeholder="digite seu o seu e-mail" size="35"/>
+                 </div> 
+             </div>
+                 
+             Telefone Fixo: <input type="text" id="telefone" name="TelefoneFixo" requered="true" placeholder="digite seu o seu Telefone Fixo" size="10"/>
+             <div>
+             Telefone Celular: <input type="text" id="telefone" name="TelefoneCelular" requered="true" placeholder="digite seu o seu Telefone Celular" size="11"/>
+             </div>
+             <div>
+                Mensagem: <textarea rows="7" cols="50" ></textarea>
+             </div>
+             <div>
+             <input type="submit" value="enviar"/>
+             <input type="reset" value="Limpar"/>    
+             </div>
+             </form>
+        </div>
+    </body>    
+</html>
